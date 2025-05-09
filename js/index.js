@@ -49,12 +49,11 @@ document.addEventListener("DOMContentLoaded", () => {
               </div>
               <div class="detail-item">
                 <i class="fa-solid fa-coins detail-icon"></i>
-                <span>Currency: ${countryData.currency.symbol} ${
-            countryData.currency.name
-        }</span>
+                <span>Currency: <strong>${
+                    countryData.currency.symbol
+                }</strong> ${countryData.currency.name}</span>
               </div>
             </div>
-            
             <div class="weather-preview">
               <div>
                 <div class="temperature">${weatherData.temperature}°C</div>
